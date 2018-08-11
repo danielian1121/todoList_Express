@@ -1,8 +1,24 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 4%;
+  border-bottom: 5px solid black;
 }
 
-a {
-  color: #00B7FF;
+.content {
+  text-align: center;
+  background-color: yellow;
+  border-bottom: 5px solid black;
 }
+
+.content .contentTitle {
+  margin: 0em 0em 0em 0em;
+  padding-top: 1rem;
+  font-size: 3rem;
+}
+
+.content .contentArticle {
+  font-size: 2rem;
+  margin: 0.5em 0.5em;
+}
+/*# sourceMappingURL=style.css.map */

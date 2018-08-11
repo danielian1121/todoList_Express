@@ -1,4 +1,8 @@
-extends layout
-
-block content
-  h1=title
+doctype html
+html
+  head
+    title TodoList
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    include ./header.pug
+    include ./content.pug 

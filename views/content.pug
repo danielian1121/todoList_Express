@@ -1,0 +1,6 @@
+section(id='List')
+    each value in data
+        article(class='content')
+            p(class='contentTitle')=value.title
+            p(class='contentArticle')=value.content
+            time=value.date
