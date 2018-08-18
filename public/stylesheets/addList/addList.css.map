@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,SAAS,EAJI,IAAI;EAKjB,UAAU,EAAE,EAAE;EACd,aAAa,EALF,GAAG,CAAC,KAAK,CAAC,KAAK;CAKI",
+    "sources": [
+        "addList.sass",
+        "../common/head/head.sass"
+    ],
+    "names": [],
+    "file": "addList.css"
+}
