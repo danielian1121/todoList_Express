@@ -1,6 +1,6 @@
-section(id='List')
+section#List
     each value in data
-        article(class='content')
-            p(class='contentTitle')=value.title
-            p(class='contentArticle')=value.content
+        article.content
+            p.contentTitle=value.title
+            p.contentArticle=value.content
             time=value.time
