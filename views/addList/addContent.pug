@@ -1,0 +1,13 @@
+section
+    center
+        form(class="" actoin="/" method="post" id="add")
+            p Title
+            input(type="text" name="title" required)
+            br
+            p Content
+            textarea(name="content" cols="40", rows="10" form="add" required)
+            br
+            p Date
+            input(type="datetime-local" name="date" required)
+            br
+            input(class="button" type="submit" value="提交")

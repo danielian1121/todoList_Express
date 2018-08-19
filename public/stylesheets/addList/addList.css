@@ -4,4 +4,21 @@ header {
   margin-top: 4%;
   border-bottom: 5px solid black;
 }
+
+form textarea {
+  resize: none;
+}
+
+form p {
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 2%;
+}
 /*# sourceMappingURL=addList.css.map */
