@@ -1,9 +1,27 @@
 header {
-  text-align: center;
-  font-size: 4rem;
   margin-top: 4%;
   border-bottom: 5px solid black;
-  padding-left: 5%;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.indexHeader {
+  padding-left: 2em;
+}
+
+.addHeader {
+  padding-left: 0.8em;
+}
+
+.Icon {
+  width: 60px;
+  float: right;
+  margin: 0 1rem 0 1rem;
+}
+
+.Icon:hover {
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .content {
@@ -21,15 +39,5 @@ header {
 .content .contentArticle {
   font-size: 2rem;
   margin: 0.5em 0.5em;
-}
-
-.plusIcon {
-  width: 60px;
-  float: right;
-}
-
-.plusIcon:hover {
-  -webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 /*# sourceMappingURL=index.css.map */

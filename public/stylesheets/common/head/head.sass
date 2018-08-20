@@ -1,8 +1,25 @@
-$titleFontSize : 4rem
+$titleFontSize : 6rem
 $titleBorder : 5px solid black
+
+@mixin titleToCenter($distance)
+    padding-left: $distance
+
 header
-    text-align: center
-    font-size: $titleFontSize
     margin-top: 4%
     border-bottom: $titleBorder
-    padding-left: 5%
+    text-align: center
+    font-size: $titleFontSize
+
+.indexHeader
+    @include titleToCenter(2em)
+
+.addHeader
+    @include titleToCenter(0.8em)
+
+.Icon
+    width: 60px
+    float: right
+    margin: 0 1rem 0 1rem
+
+.Icon:hover
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
